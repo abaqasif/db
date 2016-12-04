@@ -90,8 +90,8 @@
 
 <td>
 <button id="edit" type="button"  name= "edit" class="btn btn-success" onclick="edit({{$out->id}})">EDIT</button>
-<a href="{{url('/delete_purchase_payments/{{$out->id}}')}}" type="button"  id="delete" name="delete"  class="btn btn-danger delete_class" >DELETE</a>
-<a href="{{url('/payment_voucher/{{$out->id}}')}}" type="button"    class="btn btn-warning " >PRINT</a>
+<a href="http://localhost:8000/delete_purchase_payments/{{$out->id}}" type="button"  id="delete" name="delete"  class="btn btn-danger delete_class" >DELETE</a>
+<a href="http://localhost:8000/payment_voucher/{{$out->id}}" type="button"    class="btn btn-warning " >PRINT</a>
 
 </td>
 </tr>
