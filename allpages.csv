@@ -1,0 +1,108 @@
+1,WELCOME, 
+42,SHOW PURCHASE ORDER,view_purchase_order
+25,SHOW USER,show_user
+23,EDIT USER,edit_user_form
+24,DELETE USER,delete_user_form
+22,REGISTER USER,register_user_form
+9,CREATE PAGE,create_page_form
+11,DELETE PAGE,delete_page_form
+10,EDIT PAGE,edit_page_form
+12,SHOW PAGE,show_page
+13,CREATE RIGHT,create_right_form
+14,EDIT RIGHT,edit_right_form
+15,DELETE RIGHT,delete_right_form
+16,SHOW RIGHT,show_right
+26,CREATE RAW MATERIALS,create_raw_materials_form
+27,CREATE SUPPLIERS,create_suppliers_form
+28,SHOW RAW MATERIALS,show_raw_materials
+29,SHOW SUPPLIERS,show_suppliers
+30,EDIT RAW MATERIALS,edit_raw_material_form
+32,POST CREATE RAW MATERIALS,create_raw_materials
+33,POST CREATE SUPPLIERS,create_suppliers
+34,POST DELETE RAW MATERIALS,delete_raw_materials
+35,POST EDIT RAW MATERIAL,edit_raw_material
+36,DETAILS RAW MATERIALS ,rm_det
+37,POST DELETE SUPPLIERS,delete_suppliers
+38,POST EDIT SUPPLIERS,edit_supplier
+39,DETAILS SUPPLIERS,supp_det
+41,CREATE PURCHASE,create_purchases_form
+43,CREATE PURCHASE RETURN,create_purchase_return
+44,CREATE PURCHASE RECEIPT,create_purchase_receipt
+45,DELETE PURCHASE ORDER,delete_purchase_order/{id}
+46,DELETE PURCHASE ORDER DETAILS,delete_purchase_order_details/{id}
+47,SHOW PURCHASE ORDER DETAILS,view_purchase_order_details/{id}
+48,PURCHASE ORDER INVOICE,printInvoice/{id}
+49,CREATE PURCHASE ORDER LINE,create_purchase_order_line
+50,INVENTORY,inventory
+51,INVENTORY TRANSFER,inventory/transfer
+52,PRODUCTION CRUD,production/batch
+53,PRODUCTION,production/batch/create
+54,PRODUCTION,production/batch/{batch}
+55,PRODUCTION,production/batch/{batch}/add_rm
+56,PRODUCTION,production/batch/{batch}/complete_batch
+57,PRODUCTION,production/batch/{batch}/del_rm/{raw_material}
+58,PRODUCTION,production/batch/{batch}/del_update/{raw_material}
+59,PRODUCTION,production/batch/{batch}/done
+60,PRODUCTION,production/batch/{batch}/edit
+61,PRODUCTION,production/batch/{batch}/fill
+62,PRODUCTION,production/batch/{batch}/fill/create
+63,PRODUCTION,production/batch/{batch}/fill/{fill}/edit
+64,PRODUCTION,production/batch/{batch}/header_update_store
+65,PRODUCTION,production/batch/{batch}/lock_filling
+66,PRODUCTION,production/batch/{batch}/tests
+67,PRODUCTION,production/batch/{batch}/tests/{test}
+68,PRODUCTION,production/batch/{batch}/tests/{test}/edit
+69,PRODUCTION,production/batch/{batch}/tests/create
+70,PRODUCTION,production/batch/{batch}/update_header
+71,PRODUCTION,production/batch/{batch}/update_home
+72,PRODUCTION,production/batch/{batch}/update_rm
+73,PRODUCTION,production/dpr
+74,PRODUCTION,production/dpr_get
+75,PRODUCTION,production/item
+76,PRODUCTION,production/item/rtrv
+77,PRODUCTION,production/mixing_cost/select_batch
+78,PRODUCTION,production/mixing_paper
+79,PRODUCTION,production/mixing_paper/select_batch
+80,PRODUCTION,production/mixing_paper_cost
+81,PRODUCTION,production/recipe
+82,PRODUCTION,production/recipe/create
+83,PRODUCTION,production/recipe/{recipe}
+84,PRODUCTION,production/recipe/{recipe}/add_rm
+85,PRODUCTION,production/recipe/{recipe}/edit
+86,PRODUCTION,production/recipe/{recipe}/rm
+87,PRODUCTION,production/recipe/{recipe}/rm/create
+88,PRODUCTION,production/recipe/{recipe}/rm/{rm}
+89,PRODUCTION,production/recipe/{recipe}/rm/{rm}/edit
+90,PRODUCTION,production/recipe/{recipe}/rm_list
+91,PRODUCTION,production/recipe/{recipe}/update
+92,PRODUCTION,production/recipe/{recipe}/update_done
+93,PRODUCTION,production/recipe/{recipe}/{raw_material_id}/delete
+94,PRODUCTION,production/wastage
+95,PRODUCTION,production/wastage/create
+96,PRODUCTION,production/wastage/{wastage}
+97,PRODUCTION,production/wastage/{wastage}/edit
+98,RAW MATERIALS,rm_ageing_report
+99,PURCHASE ,payables_ledger/{dateto}/{datefrom}
+100,SUPPLIERS,list_of_suppliers
+101,PURCHASE,payment_voucher/{id}
+102,RAW MATERIALS,raw_materials_ledger_report/{id}
+103,PURCHASE,update_purchase_payments
+104,PURCHASE,purchase_payments_det
+105,PURCHASE,delete_purchase_payments/{id}
+106,PURCHASE,view_purchase_payments
+107,PURCHASE,outstanding_payments_report
+108,PURCHASE,post_create_payments
+109,PURCHASE,edit_purchase_order_det
+110,PURCHASE,purchase_order_det_edit
+111,PURCHASE,delete_purchase_return/{id}
+112,PURCHASE,delete_purchase_receipt/{id}
+113,PURCHASE,view_purchase_return
+114,PURCHASE,purchase_receipt_dreport/{date}
+115,PURCHASE,purchase_return_dreport/{date}
+116,PURCHASE,invoice_group_purchase_return/{id}
+117,PURCHASE,invoice_group_purchase_receipt/{id}
+118,PURCHASE,invoice_purchase_return/{id}
+119,PURCHASE,invoice_purchase_receipt/{id}
+120,PURCHASE,view_purchase_receipt
+121,PURCHASE,purchase_order_greport
+122,PURCHASE,purchase_order_dreport/{date}
